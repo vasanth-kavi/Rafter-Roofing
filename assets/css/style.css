@@ -1,0 +1,749 @@
+/* ============================top-header==========================
+
+.top-header{
+    height: 50px;
+    background: red;
+    width: 100%;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
+.top-header-media{
+    padding-left: 40%;
+} */
+/* ============================nav-header========================== */
+.logo-img{
+    height: 55px;
+}
+.nav-item{
+    font-family: 'lora';
+    font-size: 18px;
+    padding-right: 22px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #102039;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+     color: #EA1826;
+}
+.home-element{
+    color: #102039;
+    font-size: 18px;
+}
+.home-element:hover{
+    color: #EA1826;
+    background: none;
+    padding-left: 2px;
+    transition: ease-in 1s;
+}
+/* ==========================================banner========================= */
+.banner-top {
+    position: absolute;
+    z-index: 1;
+    left: 8%;
+}
+.banner-top-col{
+    background: #102039 !important;
+    height: 100px;
+    cursor: pointer;
+    padding: 13px;
+    border-right: 1px white solid;
+
+}
+.banner-top-col-end{
+    background: #EA1826 !important;
+}
+.banner-top-icon{
+    position: relative;
+    color: red;
+    padding: 4px 42px;
+    font-size: 40px;
+}
+.banner-top-icon-text{
+    color: white;
+    padding: 9px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'lora';
+
+}
+.banner-top-icon-p{
+    color: white;
+    font-size: 15px;
+}
+.banner-top-icon-end-text{
+    color: white;
+    padding: 11%;
+    font-family: 'lora';   
+}
+.employee1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.employee2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    right: 30px;
+}
+.employee3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    right: 60px;
+}
+.employee4{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    right: 90px;
+}
+.employee-span{
+    color: white;
+    position: relative;
+    right: 84px;
+    font-weight: bold;
+}
+.carousel-caption {
+    position: absolute;
+    top: 16%;
+    right: 65%;
+    bottom: 20px;
+    left: 3%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+.carousel-text-h5{
+    font-size: 30px;
+    font-family: 'Lora';
+
+}
+.carousel-text-p{
+    font-size: 50px;
+    font-family: 'Lora';
+    font-weight: 500;
+}
+.detailes-ion{
+    font-size: 44px;
+    color: white;
+    padding: 12%;
+}
+.detailes-txt{
+    font-family: 'Lora';
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.detailes-box{
+    box-shadow: 1px 2px 10px gray ;
+    cursor: pointer;
+
+}
+.detailes-box:hover .detaile-box-left{
+    background:#EA1826;
+   
+}
+.detaile-box-left{
+    border-right: 1px white solid;
+    background: #102039;
+    padding: 0%;
+}
+.detailes-span{
+    font-family: 'Lora';
+    font-size: 18px;
+    font-weight: 600;
+}
+.detailes-span:hover{
+    color: #EA1826;
+}
+.detailes-p{
+    border-bottom: 1px gray solid;
+    font-size: 17px;
+    font-family: inherit;
+    color: gray;
+    padding: 3%;
+}
+/* ========================================================Profesional================================================================================ */
+
+.Profesional-left{
+    background: blue;
+    height: 600px;
+
+}
+/* .Profesional-right{
+  background: blueviolet;
+} */
+.Profesional-headter{
+    font-size: 48px;
+    width: 96%;
+    font-family: 'Lora';
+    color: #102039;
+    font-weight: 600;
+}
+.Profesional-about{
+    color: gray;
+    font-family: inherit;
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 0.8px;
+    line-height: 1.5; 
+}
+.Profesional-about-left-icon{
+    font-size: 40px;
+    color: red;
+}
+.Profesional-about-left-txt{
+    font-size: 21px;
+    font-family: 'Lora';
+    width: 78%;
+    font-weight: 600;
+}
+.Profesional-about-line{
+    border-bottom: 1px gray solid;
+}
+.Profesional-right-bottam-img{
+    height: 70px;
+    display: inline-block;
+}
+.Profesional-right-bottam-img-src{
+    border-radius: 50px;
+}
+.Profesional-right-bottam-h2{
+    font-size: 20px;
+    font-family: 'Lora';
+    font-weight: 600;
+}
+.Profesional-right-bottam-span{
+    font-family: 'Poppins';
+    color: gray;
+    letter-spacing: 2px; 
+}
+.Profesional-right-bottam-sign{
+    height: 60px;
+    display: inline-block;
+}
+
+.Profesional-left-top-img{
+    height: 601px;
+    width: 100%;
+    object-fit: cover;
+}
+.Profesional-left-bottam{
+    background: red;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+    bottom: 33%;
+}
+.Profesional-left-bottam-icon{
+    font-size: 54px;
+    color: white;
+}
+.Profesional-left-bottam-count{
+    font-family: 'Lora';
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.Profesional-left-bottam-txt{
+    font-family: 'Lora';
+    color: white;
+    font-weight: 700;
+}
+/* ================================================================servicer================================================ */
+.Services-section{
+    background: #102039;
+}
+.servicer-h1{
+    font-family: 'Lora';
+    font-weight: 700;
+    color: white;
+
+}
+.servicer-p{
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.scroller{
+     overflow-x:scroll ;
+    }
+.servicer-bottam-scroller{
+    gap: 54px;
+}
+.scrol-box{
+    background: white;
+    margin: 22px 0px;
+    cursor: pointer;
+    height: 230px;
+    border-radius: 5px;
+}
+.services-banner{
+    background: #fff;
+}
+.scrol-box-icon{
+    font-size: 50px;
+    text-align: center;
+    color: #EA1826;
+}
+.scrol-box-p{
+    color:#102039;
+    font-family: 'Lora';
+    font-size: 22px;
+    font-weight: 600;
+}
+.scrol-box:hover{
+    background: #EA1826;
+}
+.scrol-box:hover .scrol-box-icon, .scrol-box:hover .scrol-box-p{
+    color: #fff;
+}
+.services-banner{
+    border-radius: 5px;
+}
+.red{
+    color: #EA1826 !important;
+}
+.services-banner-left-h2{
+    color:#102039;
+    font-family: 'Lora';
+    font-weight: 600;
+}
+.services-banner-left-p{
+    color: gray;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+.services-banner-left-ul{
+    list-style: none;
+}
+.services-banner-left-li-elmt{
+    color: #102039;
+    font-family: 'Lora';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2.7;
+}
+.services-banner-left-aref{
+    background: red;
+    display: inline-block;
+    padding: 13px;
+    color: white !important;
+    font-family: 'Lora';
+    font-size: 17px;
+    text-decoration: none;
+}
+.services-banner-left-aref:hover{
+    text-decoration: none;
+    
+}
+.work-hours{
+    height: 482px;
+    object-fit: cover;
+    padding: 11px;
+}
+.work-hours-src{
+    border-radius: 5px;
+}
+/* ===========================================Explore================================================= */
+.Explore-h1{
+    font-family: 'Lora';
+    font-weight: 700;
+}
+.Explore-p{
+    font-family: 'Poppins';
+    color: gray;
+}
+.pointer{
+    cursor: pointer;
+  
+}
+.Explore-all{
+    display: inline-block;
+    background: transparent;
+    cursor: pointer;
+    border: 1px black solid;
+    padding: 10px;
+    padding: 1%;
+    font-size: 15px;
+    font-family: 'Lora';
+    font-weight: 600;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.Explore-all:hover{
+    background: #EA1826;
+    border: 1px #EA1826 solid;
+    color: #fff;
+    
+}
+.explore-img{
+    background: url(./img/about-1.jpg);
+    height:300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.explore-img-1{
+    background: url(./img/work-2.jpg);
+    height:300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.explore-img-2{
+    background: url(./img/work-house.jpg);
+    height:300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.explore-img-3{
+    background: url(./img/work-4.jpg);
+    height:300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.explore-img-4{
+    background: url(./img/work-5.jpg);
+    height:300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.explore-img-5{
+    background: url(./img/work-6.jpg);
+    height:300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.explore-img:hover .explore-layer, .explore-img-1:hover .explore-layer, .explore-img-2:hover .explore-layer, .explore-img-3:hover .explore-layer, .explore-img-4:hover .explore-layer, .explore-img-5:hover .explore-layer{
+    opacity: 55%;
+    transition: ease-in 1s;
+
+}
+.explore-img:hover .explore-layer-txt, .explore-img-1:hover .explore-layer-txt, .explore-img-2:hover .explore-layer-txt, .explore-img-3:hover .explore-layer-txt, .explore-img-4:hover .explore-layer-txt, .explore-img-4:hover .explore-layer-txt{
+    display: inline-block;
+}
+
+.explore-layer{
+    background: black;
+    height: 100%;
+    opacity: 0%;
+    transition: ease-out 1s;
+}
+.explore-layer-txt{
+    position: absolute;
+    color: white;
+    display: none;
+    font-family: 'Lora';
+    font-weight: 700;
+    z-index: 2;
+    bottom: 5%;
+    padding: 2%;
+
+}
+.explore-layer-txt:hover{
+    color: #EA1826;
+
+}
+.explore-img-src{
+    object-fit:cover;
+}
+/* =============================================Appointment========================================= */
+.Appointment-award{
+    color: #EA1826;
+    font-family: 'Poppins';
+    font-weight: 600;
+
+}
+.Appointment-headter{
+    font-size: 48px;
+    width: 86%;
+    font-family: 'Lora';
+    color: #102039;
+    font-weight: bolder;
+}
+.Appointment-about{
+    color: gray;
+    font-family: 'Poppins';
+    text-align: justify;
+    letter-spacing: 0.8px;
+    line-height: 1.9;
+}
+
+.Appointment-left-bottam-awared{
+    height: 134px;
+    display: inline-block;
+}
+.Appointment-top{
+    background: #EA1826;
+    clip-path: polygon(50% 0%, 100% 50%, 100% 100%, 0 100%, 0 50%);
+}
+.Appointment-top-p{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.Appointment-top-h{
+    font-family: 'Lora';
+    font-weight: 600;
+    color: white;
+}
+.Appointment-body{
+    background: white;
+    box-shadow: -1px 1px 11px gray;
+}
+.Appointment-body-elmt-input{
+    border: none !important;
+    outline: none !important;
+    padding: 2%;
+    width: 80%;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.Appointment-body-elmt{
+    border: 1px lightslategray solid;
+} 
+.Appointment-body-elmt:hover{
+   border: 1px #EA1826 solid;
+}
+.Appointment-body-elmt-icon{
+    font-size: 25px;
+    color: lightslategray;
+}
+.Appointment-textarea{
+    height: 120px;
+    border: 1px lightslategray solid;
+    font-family: 'Poppins';
+    outline: none !important;
+    width: 96%;
+    padding: 2%;
+}
+.Appointment-textarea:hover{
+   border: 1px #EA1826 solid;
+
+}
+.Appointment-submit{
+    background: red;
+    border: none;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: 20px;
+    color: white;
+}
+.Appointment-submit:hover{
+    outline: none;
+}
+/* ===========================================================medai-qurry======================================================================= */
+@media only screen and (max-width: 1169px) and (min-width: 1029px){
+    .carousel-text-p {
+        font-size: 42px;
+        font-family: 'Lora';
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width: 1028px) and (min-width: 945px){
+    .carousel-text-p {
+        font-size: 38px;
+        font-family: 'Lora';
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width: 944px) and (min-width: 706px){
+    .carousel-caption {
+        position: absolute;
+        top: 25%;
+        right: 65%;
+        bottom: 20px;
+        left: 3%;
+        width: 33%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: left;
+    }
+    .carousel-text-h5 {
+        font-size: 18px;
+        font-family: 'Lora';
+    }
+    .carousel-text-p {
+        font-size: 27px;
+        font-family: 'Lora';
+        font-weight: 500;
+    }
+    .employee-span {
+        color: white;
+        position: relative;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 705px) and (min-width: 550px){
+    .carousel-caption {
+        position: absolute;
+        top: 0%;
+        right: 65%;
+        width: 51%;
+        bottom: 20px;
+        left: 3%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: left;
+    }
+    .employee-span {
+        color: white;
+        position: relative;
+        right: 84px;
+        font-weight: bold;
+    }
+    .carousel-text-p {
+        font-size: 35px;
+        font-family: 'Lora';
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width: 585px) and (min-width: 450px){
+    .carousel-caption {
+        position: absolute;
+        top: 1%;
+        right: 65%;
+        bottom: 20px;
+        left: 3%;
+        width: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: left;
+    }
+    .carousel-text-p {
+        font-size: 25px;
+        font-family: 'Lora';
+        font-weight: 500;
+    }
+    .carousel-text-h5 {
+        font-size: 20px;
+        font-family: 'Lora';
+    }
+    .employee1 ,.employee2 ,.employee3 ,.employee4{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .work-hours{
+        height: 412px;
+        object-fit: cover;
+        padding: 11px;
+    }
+    .Appointment-left-bottam-awared{
+        height: 113px;
+        display: inline-block;
+    }
+
+}
+@media only screen and (max-width: 449px) and (min-width: 377px){
+    .carousel-caption {
+        position: absolute;
+        top: 1%;
+        right: 65%;
+        bottom: 20px;
+        left: 3%;
+        width: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: left;
+    }
+    .carousel-text-p {
+        font-size: 20px;
+        font-family: 'Lora';
+        font-weight: 500;
+    }
+    .carousel-text-h5 {
+        font-size: 15px;
+        font-family: 'Lora';
+    }
+    .employee1 ,.employee2 ,.employee3 ,.employee4{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+    .employee-span {
+        font-size: 12px;
+    }
+    .work-hours{
+        height: 372px;
+        object-fit: cover;
+        padding: 11px;
+    }
+    .Appointment-left-bottam-awared{
+        height: 110px;
+        display: inline-block;
+    }
+
+
+}
+@media only screen and (max-width: 376px) and (min-width: 250px){
+    .carousel-caption {
+        position: absolute;
+        top: 1%;
+        right: 65%;
+        bottom: 20px;
+        left: 3%;
+        width: 60%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: left;
+    }
+    .carousel-text-p {
+        font-size: 15px;
+        font-family: 'Lora';
+        font-weight: 500;
+    }
+    .carousel-text-h5 {
+        font-size: 10px;
+        font-family: 'Lora';
+    }
+    .employee1 ,.employee2 ,.employee3 ,.employee4{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+    }
+    .employee-span {
+        font-size: 12px;
+    }
+    .work-hours{
+        height: 272px;
+        object-fit: cover;
+        padding: 11px;
+    }
+    .Appointment-left-bottam-awared{
+        height: 100px;
+        display: inline-block;
+    }
+
+}
